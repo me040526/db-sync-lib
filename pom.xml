@@ -132,6 +132,20 @@
             </dependency>
          -->
         <!-- NB: No public driver for DB2, interbase, sapdb, oracle, sqlserver -->
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>11.2.1.0</version>
+            <scope>system</scope>
+            <systemPath>E:/sourcecode/proxy/oracletest/lib/11g/ojdbc6.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>orai18n</artifactId>
+            <version>11.2.1.0</version>
+            <scope>system</scope>
+            <systemPath>E:/sourcecode/proxy/oracletest/lib/11g/orai18n.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>
